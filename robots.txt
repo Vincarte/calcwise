@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# When the final public URL is known, add this line with the real address:
+# Sitemap: https://<your-address>/sitemap.xml

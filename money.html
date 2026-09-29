@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money &amp; Work Calculators and Guides | Riviera</title>
+<meta name="description" content="Calculators and guides for loans, savings, salary, budgeting and other money and work numbers, with the formula and assumptions shown.">
+<meta name="theme-color" content="#285C59">
+<meta property="og:site_name" content="Riviera: Life &amp; Numbers">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Money &amp; Work Calculators and Guides | Riviera">
+<meta property="og:description" content="Calculators and guides for loans, savings, salary, budgeting and other money and work numbers, with the formula and assumptions shown.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/riviera-logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+<script src="js/calculator-engine.js" defer></script>
+<script src="js/calculators.js" defer></script>
+<script src="js/workspace.js" defer></script>
+<script src="js/pwa.js" defer></script>
+</head>
+<body data-page="money">
+<header id="site-header" class="site-header"><noscript><div class="container"><p><a href="index.html">Riviera: Life &amp; Numbers</a> needs JavaScript to run its calculators.</p></div></noscript></header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Money &amp; Work</li></ol></nav>
+      <h1>Money &amp; Work</h1>
+      <p class="lead">Loans, savings, salary and the other numbers behind household and work plans, each with the working and the assumptions shown.</p>
+      <p class="note">These tools give estimates from the numbers you enter. They are not financial advice.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="tools-h">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="tools-h">Calculators available now</h2></div>
+      <div data-component="tool-grid" data-area="money"></div>
+    </div>
+  </section>
+
+  <section class="section section--surface" aria-labelledby="covers-h">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="covers-h">Everything planned for this area</h2>
+      <p class="section__intro">Tools with a solid outline are ready to use. Tools with a dashed outline are planned.</p></div>
+      <div data-component="topic-list" data-area="money"></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="guides-h">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="guides-h">Guides</h2></div>
+      <div data-component="guide-list" data-area="money"></div>
+    </div>
+  </section>
+
+  <section class="section section--surface" aria-labelledby="more-h">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="more-h">Explore other areas</h2></div>
+      <div data-component="area-cards" data-exclude-current></div>
+    </div>
+  </section>
+</main>
+<footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>

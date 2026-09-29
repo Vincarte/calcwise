@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LAUNCH STEP: replace every {{BASE_URL}} below with the public address, ending in "/"
+     (for example https://username.github.io/calcwise/). Use the same value as SITE.baseUrl in js/app.js.
+     Calculator pages (calculators.html?tool=<id>) are added here when their indexing strategy is decided. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{BASE_URL}}</loc></url>
+  <url><loc>{{BASE_URL}}calculators.html</loc></url>
+  <url><loc>{{BASE_URL}}money.html</loc></url>
+  <url><loc>{{BASE_URL}}life.html</loc></url>
+  <url><loc>{{BASE_URL}}science.html</loc></url>
+  <url><loc>{{BASE_URL}}information.html</loc></url>
+</urlset>

@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riviera: Life &amp; Numbers — Everyday Calculators &amp; Planning Tools</title>
+<meta name="description" content="Practical calculators, statistical tools, scientific tools and planning resources for money, health, travel, work, property, mathematics and everyday decisions.">
+<meta name="theme-color" content="#285C59">
+<meta property="og:site_name" content="Riviera: Life &amp; Numbers">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Riviera: Life &amp; Numbers — Everyday Calculators &amp; Planning Tools">
+<meta property="og:description" content="Practical calculators, statistical tools, scientific tools and planning resources for money, health, travel, work, property, mathematics and everyday decisions.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/riviera-logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+<script src="js/calculator-engine.js" defer></script>
+<script src="js/calculators.js" defer></script>
+<script src="js/workspace.js" defer></script>
+<script src="js/pwa.js" defer></script>
+</head>
+<body data-page="home">
+<header id="site-header" class="site-header"><noscript><div class="container"><p><a href="index.html">Riviera: Life &amp; Numbers</a> needs JavaScript to run its calculators.</p></div></noscript></header>
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <h1>Life &amp; Numbers, Made Practical</h1>
+      <p class="lead">Practical calculators and planning tools to help you calculate, understand and plan.</p>
+      <h2 class="hero__sub hero__sub--first">What are you trying to figure out?</h2>
+      <div data-component="tool-search"></div>
+      <h2 class="hero__sub">Or start with how much detail you need</h2>
+      <div data-component="level-selector"></div>
+    </div>
+  </section>
 
+  <section class="section" aria-labelledby="popular-h">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="popular-h">Popular calculators</h2></div>
+      <div data-component="tool-grid" data-popular></div>
+    </div>
+  </section>
+
+  <section class="section section--surface" aria-labelledby="areas">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="areas">Browse by area</h2>
+      <p class="section__intro">Each area brings calculators and short guides together, so you can read about a topic and work it out in the same place.</p></div>
+      <div data-component="area-cards"></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="how-h">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title" id="how-h">Calculate. Understand. Plan.</h2>
+        <p class="section__intro">Riviera is a collection of practical calculators, statistical and scientific tools, and short guides for everyday numbers. Every tool shows its formula, states its assumptions and limits, and explains what the result means, so you can work things out and plan ahead.</p>
+      </div>
+      <ol class="steps">
+        <li><span class="steps__title">Ask</span><span class="steps__text">Search a topic or choose a calculator.</span></li>
+        <li><span class="steps__title">Enter</span><span class="steps__text">Fill in your numbers. Units are always shown.</span></li>
+        <li><span class="steps__title">Understand</span><span class="steps__text">See the result, the formula behind it and what it means.</span></li>
+        <li><span class="steps__title">Compare</span><span class="steps__text">Change an assumption and compare it with saved results.</span></li>
+        <li><span class="steps__title">Plan</span><span class="steps__text">Keep calculations in My Workspace, then print or download them.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--surface" aria-labelledby="guides-h">
+    <div class="container">
+      <div class="section__head"><h2 class="section__title" id="guides-h">Guides that explain the numbers</h2></div>
+      <div data-component="guide-list" data-limit="3"></div>
+      <p class="section__more"><a href="information.html">Browse all guides</a></p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="ws-h">
+    <div class="container">
+      <div class="callout">
+        <div>
+          <h2 class="callout__title" id="ws-h">Keep your work in one place</h2>
+          <p class="callout__text">My Workspace holds the calculations you save so you can compare them, print them or download them. It stays on your device, and you do not need an account.</p>
+        </div>
+        <button type="button" class="btn btn--primary" data-workspace-open>Open My Workspace</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
