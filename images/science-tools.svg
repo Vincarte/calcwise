@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice">
+  <rect width="640" height="400" fill="#E4EAED"/>
+  <g stroke="#6D8490" stroke-opacity=".25" stroke-width="1.5">
+    <line x1="80" y1="80" x2="80" y2="330"/><line x1="180" y1="80" x2="180" y2="330"/><line x1="280" y1="80" x2="280" y2="330"/><line x1="380" y1="80" x2="380" y2="330"/><line x1="480" y1="80" x2="480" y2="330"/><line x1="580" y1="80" x2="580" y2="330"/>
+    <line x1="60" y1="130" x2="590" y2="130"/><line x1="60" y1="205" x2="590" y2="205"/><line x1="60" y1="280" x2="590" y2="280"/>
+  </g>
+  <line x1="60" y1="330" x2="590" y2="330" stroke="#285C59" stroke-width="3"/>
+  <line x1="80" y1="60" x2="80" y2="330" stroke="#285C59" stroke-width="3"/>
+  <path d="M80 250 C140 110 200 110 260 205 S380 300 440 190 S540 120 580 180" fill="none" stroke="#285C59" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="140" r="9" fill="#D8C7A3"/><circle cx="330" cy="255" r="9" fill="#D8C7A3"/><circle cx="470" cy="150" r="9" fill="#D8C7A3"/>
+</svg>
