@@ -1,0 +1,13 @@
+{
+  "note": "Guides are planned, not written. Each entry is a placeholder card that points at a catalogue calculator. Set status to \"published\" and add an href when a real guide exists.",
+  "topics": [
+    "Financial literacy", "Health awareness", "Travel planning", "Mathematical concepts", "Statistics explained",
+    "Science explained", "Household planning", "Property basics", "Digital literacy", "Everyday facts"
+  ],
+  "guides": [
+    { "id": "what-bmi-measures", "status": "planned", "theme": "health", "title": "What does BMI actually measure?", "summary": "Planned guide.", "calculators": ["bmi"] },
+    { "id": "how-loan-interest-works", "status": "planned", "theme": "money", "title": "How loan interest works", "summary": "Planned guide.", "calculators": ["loan-payment"] },
+    { "id": "how-fuel-consumption-is-calculated", "status": "planned", "theme": "travel", "title": "How fuel consumption is calculated", "summary": "Planned guide.", "calculators": ["fuel-cost", "fuel-efficiency"] },
+    { "id": "what-the-mean-tells-you", "status": "planned", "theme": "statistics", "title": "What the mean tells you, and what it hides", "summary": "Planned guide.", "calculators": ["mean", "standard-deviation"] }
+  ]
+}
